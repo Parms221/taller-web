@@ -1,9 +1,24 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+    
+
     /* Declarar varibles */
     --color-primario: #7e31b6;
     --imagen-altura: 500px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    /* vh -> view height */
+    /* 100 vh -> 100% del tamaño de su pantalla */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .contenedor {
