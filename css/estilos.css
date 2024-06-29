@@ -39,7 +39,7 @@ main {
 
 img {
     /* height -> altura */
-    height: var(--imagen-altura);
+    height: 100%;
     /* width -> ancho */
     width: var(--imagen-altura);
 
