@@ -7,6 +7,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+    <!-- stylesheet -> es un archivo de para dar estilos -->
+    <link rel="stylesheet" href="./css/estilos.css">
 
     <title>SUV Ingreso</title>
 </head>
@@ -16,41 +20,51 @@
     <!-- Navegación -->
     <main>
 
-        <!-- src -> source -> fuente -> Local - URL -->
-        <!-- alt -> texto alternativo -->
-         <!-- width -> ancho -->
-         <!-- height -> alto -->
-        <img src="./img/img-principal.jpg" alt="Puerta de la UNT" width=500px >
+        <div class="contenedor">
+            <!-- src -> source -> fuente -> Local - URL -->
+            <!-- alt -> texto alternativo -->
+            <!-- width -> ancho -->
+            <!-- height -> alto -->
+            <img src="./img/img-principal.jpg" alt="Puerta de la UNT" width=500px >
 
+            <div class="contenedor-formulario">
+                <div>
+                    <!-- Heading -->
+                    <h1 class="titulo">SUV - Login</h1>
+                    <h2 class="titulo">Universidad Nacional de Trujillo</h2>
 
-        <!-- Heading -->
-        <h1>SUV - Login 2</h1>
-        <h2>Universidad Nacional de Trujillo</h2>
+                    <!-- Formulario -->
+                    <!-- Action: A donde se envia la información (Backend) -->
+                    <form action="#">
+                        <div>
+                            <!-- Etiqueta del input -->
+                            <label for="usuario">Usuario</label>
+                            <input type="text" name="usuario" id="usuario">
+                        </div>
 
-        <!-- Formulario -->
-         <!-- Action: A donde se envia la información (Backend) -->
-        <form action="#">
-            <div>
-                <!-- Etiqueta del input -->
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" id="usuario">
+                        <div>
+                            <label for="contrasena">Contraseña</label>
+                            <input type="password" name="contrasena" id="contrasena">
+                        </div>
+
+                        
+
+                        <!-- Submit -> Envie el formulario -->
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </form>
+
+                    <p>¿Olvidaste tu Contraseña?</p>
+                    <p>Restaurala ahora</p>
+                </div>
+                
             </div>
 
-            <div>
-                <label for="contrasena">Contraseña</label>
-                <input type="password" name="contrasena" id="contrasena">
-            </div>
+                
+        </div>
 
-            
-
-            <!-- Submit -> Envie el formulario -->
-            <button type="submit">
-                Enviar
-            </button>
-        </form>
-
-        <p>¿Olvidaste tu Contraseña?</p>
-        <p>Restaurala ahora</p>
+        
 
     </main>
 

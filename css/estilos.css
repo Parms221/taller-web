@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* Declarar varibles */
+    --color-primario: #7e31b6;
+    --imagen-altura: 500px;
+}
+
+.contenedor {
+    /* Pone los elementos hijos en una fila */
+    display: flex;
+
+    /* Gap solo funciona con flex o grid */
+    gap: 10px;
+}
+
+.contenedor-formulario {
+    display: flex;
+
+    /* Centra los elementos verticalmente */
+    /* Funciona solo con grid o flex */
+    align-items: center;
+}
+
+img {
+    /* height -> altura */
+    height: var(--imagen-altura);
+    /* width -> ancho */
+    width: var(--imagen-altura);
+
+    /* No "comprime" la imagen según sus dimensiones */
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+/* Cuando se estila una clase, se debe con "." */
+.titulo {
+    text-transform: uppercase;
+    /* color: #555555; */
+    color: var(--color-primario);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
