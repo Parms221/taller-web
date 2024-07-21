@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- tags -->
+
+<html lang="es">
+
+<!-- Cabecera - Propiedades del proyecto -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- stylesheet -> es un archivo de para dar estilos -->
+    <link rel="stylesheet" href="/css/estilos.css">
+
+    <title>SUV Ingreso</title>
+</head>
+
+<!-- Cuerpo -->
+<body>
+    <!-- Navegación -->
+    <main>
+
+        <div class="contenedor">
+            <!-- src -> source -> fuente -> Local - URL -->
+            <!-- alt -> texto alternativo -->
+            <!-- width -> ancho -->
+            <!-- height -> alto -->
+            <img src="/img/img-principal.jpg" alt="Puerta de la UNT" width=500px >
+
+            <div class="contenedor-formulario">
+                <div>
+                    <!-- Heading -->
+                    <h1 class="titulo">SUV - Login</h1>
+                    <h2 class="titulo">Universidad Nacional de Trujillo</h2>
+
+                    <!-- Formulario -->
+                    <!-- Action: A donde se envia la información (Backend) -->
+                    <form action="https://bwkraaspu7tyy32aypqekemfuu0frsjg.lambda-url.us-east-1.on.aws/auth/login" method="POST">
+                        <div class="form-input">
+                            <!-- Etiqueta del input -->
+                            <label for="usuario">Usuario</label>
+                            <input type="text" name="usuario" id="usuario">
+                        </div>
+
+                        <div class="form-input">
+                            <label for="contrasena">Contraseña</label>
+                            <input type="password" name="contrasena" id="contrasena">
+                        </div>
+
+                        
+
+                        <!-- Submit -> Envie el formulario -->
+                        <button type="submit" class="boton-enviar">
+                            Enviar
+                        </button>
+                    </form>
+
+                    <p>¿Olvidaste tu Contraseña?</p>
+                    <p>Restaurala ahora</p>
+                </div>
+                
+            </div>
+
+                
+        </div>
+
+        
+
+    </main>
+
+    <!-- Pie de página -->
+</body>
+
+
+
+</html>
