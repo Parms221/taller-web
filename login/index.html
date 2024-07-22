@@ -12,6 +12,7 @@
     <!-- stylesheet -> es un archivo de para dar estilos -->
     <link rel="stylesheet" href="/css/estilos.css">
 
+
     <title>SUV Ingreso</title>
 </head>
 
@@ -32,12 +33,15 @@
                     <!-- Heading -->
                     <h1 class="titulo">SUV - Login</h1>
                     <h2 class="titulo">Universidad Nacional de Trujillo</h2>
+                    <div>
+                        <p id="error-message" class="error-message"></p>
+                    </div>
 
                     <!-- Formulario -->
                     <!-- Action: A donde se envia la información (Backend) -->
 
                     <!-- API_URL -->
-                     <!-- Endpoint -> url -->
+                    <!-- Endpoint -> url -->
                     <form action="https://bwkraaspu7tyy32aypqekemfuu0frsjg.lambda-url.us-east-1.on.aws/auth/login" method="post">
                         <div class="form-input">
                             <!-- Etiqueta del input -->
@@ -70,6 +74,10 @@
         
 
     </main>
+
+    <script src="/js/test.js"></script>
+
+
 
     <!-- Pie de página -->
 </body>

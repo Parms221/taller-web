@@ -96,3 +96,8 @@ h2 {
     height: 30px;
     border-radius: 10px;
 }
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
